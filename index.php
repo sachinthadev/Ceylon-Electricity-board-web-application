@@ -24,10 +24,10 @@
    </div>
 
 
-   <script>
+ <script>
       // Function to show the loader
       function showLoader() {
-         document.getElementById(("loader-container").style.display = "flex");
+         document.getElementById("loader-container").style.display = "flex";
       }
 
       // Function to hide the loader
@@ -42,7 +42,6 @@
       setTimeout(hideLoader, 2000);
    </script>
 
-<!-- Loading Gif End-->
 
 
 
@@ -68,7 +67,7 @@
 
       <div class="carousel-inner">
          <div class="carousel-item active">
-            <img id="sliderImage" class="first-slide" src="img/slider1.jpg" alt="First slide">
+            <img id="sliderImage" class="first-slide" src="img/elecBack.jpg" alt="First slide">
          </div>
       </div>
 
@@ -128,7 +127,7 @@
 
  <!--Slider_change-->
 <script>
-   var images = ["img/elecBack.jpg", "img/back.webp", "img/elecBack1.jpg"];
+   var images = ["img/elecBack.jpg", "img/Back.png", "img/elecBack1.png"];
    var currentIndex = 0;
    var sliderImage = document.getElementById("sliderImage");
 
