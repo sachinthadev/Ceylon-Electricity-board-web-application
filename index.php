@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="js/bootstrap.js">
 
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     
 
 </head>
@@ -25,7 +27,7 @@
    <script>
       // Function to show the loader
       function showLoader() {
-         document.getElementById("loader-container").style.display = "flex";
+         document.getElementById(("loader-container").style.display = "flex");
       }
 
       // Function to hide the loader
@@ -126,7 +128,7 @@
 
  <!--Slider_change-->
 <script>
-   var images = ["img/slider1.jpg", "img/slider2.jpg", "img/slider3.jpg"];
+   var images = ["img/elecBack.jpg", "img/back.webp", "img/elecBack1.jpg"];
    var currentIndex = 0;
    var sliderImage = document.getElementById("sliderImage");
 
@@ -139,7 +141,8 @@
 </script>
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
 </body>
 </html>
